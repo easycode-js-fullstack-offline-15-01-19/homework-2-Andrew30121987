@@ -136,6 +136,12 @@ switch (a) {
         console.log('other');
 }
 //---2.Из задач по условному оператору if else выполнить задачи 1, 2 и 3 в виде тернарного оператора.
-console.log((h === 'hidden') ? 'visible' : 'hidden');
-console.log((h === 0) ? 1 : (h < 0) ? 'less then zero' : h * 10);
-console.log((car.age > 5) ? (console.log('Need Repair'), car.needRepair = true) : car.needRepair = false);
+// console.log('before', h);
+h = 'hidden';
+h = (h === 'hidden') ? 'visible' : 'hidden';
+console.log('hidden/visible', h);
+let x = 0;
+x = (x === 0) ? 1 : (x < 0) ? 'less then zero' : x * 10;
+console.log('amount', x);
+(car.age > 5) ? car.needRepair = true: car.needRepair = false;
+console.log('car', car.needRepair);
