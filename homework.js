@@ -139,9 +139,9 @@ switch (a) {
 // console.log('before', h);
 h = 'hidden';
 h = (h === 'hidden') ? 'visible' : 'hidden';
-console.log('hidden/visible', h);
+// console.log('hidden/visible', h);
 let x = 0;
 x = (x === 0) ? 1 : (x < 0) ? 'less then zero' : x * 10;
-console.log('amount', x);
+// console.log('amount', x);
 (car.age > 5) ? car.needRepair = true: car.needRepair = false;
-console.log('car', car.needRepair);
+// console.log('car', car.needRepair);
